@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&family=Rowdies:wght@300&family=Shizuru&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navebar">
+                <div class="logo">
+
+                    <a href="index.html"><img src="images/logo.png" width="130px"></a>
+                   
+                   
+                </div>
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="product-detail.html">About</a></li>
+                        <li><a href="https://www.instagram.com/p/CXimcHYho_N/?utm_medium=copy_link">Contact us</a></li>
+                        <li><a href="account.html">Login</a></li>
+                        
+                    </ul>
+                    <a href="product-detail.html"><img src="images/cart.png" width="30px" height="30px" ></a>
+                    <img src="images/menu.png" class="manu" onclick="menutoggle()">
+
+                </nav>
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br> A New Style! </h1>
+                    <p>Susses isn't always about greatness. its about consistency.
+                        consistency <br>hard work gains success. Greatness will come.
+                    </p>
+                    <a href="product-detail.html" class="btn">Explore Now &#8594;</a>
+
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!----featured categories--->
+    <div class="cat">
+        <div class="small">
+            <div class="row">
+                <div class="col-3">
+                <img src="images/category-1.jpg" >
+                </div>
+                <div class="col-3">
+                <img src="images/category-2.jpg" >
+                </div>
+    
+                <div class="col-3">
+                <img src="images/category-3.jpg" >
+                </div>
+    
+            </div>
+
+        </div>
+     
+    </div>
+<!----feature products-->
+<div class="small-container">
+    
+    <h2 class="title">
+        Featured Products
+    </h2>
+   
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-1.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$20.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg">
+            <h4>Men's Formal Dress Slip On Shoes</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4>Men's Slim Casual Trousers</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$80.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4>Blue Simple T-Shirt</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$38.00</p>
+        </div>
+
+    </div>
+    <hr>
+    <h2 class="title">Latest products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg">
+            <h4>white shoes</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4>Black Printed T-Shirt</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg">
+            <h4>Man-Shock</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$10.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg">
+            <h4>Black-clock Day & Date Analog Wrist Watch for Men & Boys (Black)</h4>
+            <div class="ratting">
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              <i class="fa-solid fa-star-sharp"></i>
+              
+            </div>
+
+            <p>$150.00</p>
+        </div>
+    
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Best Seller
+                    Michael Kors Men's Slim Runway Stainless Steel Quartz Watch
+                    Michael Kors Men's Slim Runway Stainless Steel Quartz Watch</h4>
+                <div class="ratting">
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  
+                </div>
+    
+                <p>$200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Skechers Men's Afterburn Memory-Foam Lace-up Sneaker</h4>
+                <div class="ratting">
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  
+                </div>
+    
+                <p>$500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Man-KEEZMZ Men's Running Shoes Fashion Breathable Sneakers Mesh Soft Sole Casual Athletic Lightweight</h4>
+                <div class="ratting">
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  
+                </div>
+    
+                <p>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Match Men's Slim Tapered Stretchy Casual Pants</h4>
+                <div class="ratting">
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  <i class="fa-solid fa-star-sharp"></i>
+                  
+                </div>
+    
+                <p>$150.00</p>
+            </div>
+
+    </div>
+</div>
+<!--offers-->
+<div class="offer">
+    <div class="small-comtainer">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Smart-Watch on RedStore</p>
+                <h2>Indra Watch PRO* </h2>
+                <small>Fitbit Versa 3 Health & Fitness Smartwatch with GPS, 24/7 <br>Heart Rate, Alexa Built-in, 6+ Days Battery,<br> Black/Black, One Size (S & L Bands Included)</small>
+                <br>
+                <a href="cardtem.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<!--testimonial-->
+<div class="test">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Fitbit Versa 3 Health & Fitness Smartwatch with GPS, 24/7
+                    Heart Rate, Alexa Built-in, 6+ Days Battery,
+                    Black/Black, One Size (S & L Bands Included)</p>
+                    <div class="ratting">
+                    
+                      
+                    </div>    
+                    <img src="images/user-1.png">
+                    <h3>shalni jain</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>To watch an issue, open it and click the watch icon  at the top right. If you have permission, the watch icon also lets you view and manage the list of watchers on the issue. Add watchers to make sure they're informed of important issue updates.</p>
+                    <div class="ratting">
+                    
+                      
+                    </div>    
+                    <img src="images/user-2.png" >
+                    <h3>Indra sharma </h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>You'll often be working on Jira issues as part of a team, so it's important you can share what's happening to keep your team up to date. You'll also need to keep up with the progress of issues you may not be directly working on. This is where watching, sharing, and comments come in.</p>
+                    <div class="ratting">
+                    
+                      
+                    </div>    
+                    <img src="images/user-3.png" >
+                    <h3>jannystry parker</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Brands-->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" >
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Our purpuse is sustainably make the pleasure 
+                    and benefits of sports accessible to th many</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" >
+                        <img src="images/app-store.png" >
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+
+            </div>
+            <div class="footer-col-3">
+                <h3>useful links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blogs post</li>
+                    <li>Return policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us </h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - indrajeet web Devloper</p>
+    </div>
+</div>
+
+
+<!--script-->
+<script>
+    var menuitem=document.getElementById('menuitem');
+    menuitem.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitem.style.maxHeight=="0px"){
+            menuitem.style.maxHeight="200px";
+        }
+        else{
+            menuitem.style.maxHeight="0px";
+        }
+    }
+</script>
+<script>
+    alert("Welcome to RedStore");
+</script>
+</body>
+
+</html>

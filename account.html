@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&family=Rowdies:wght@300&family=Shizuru&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+        <div class="container">
+            <div class="navebar">
+                <div class="logo">
+
+                   <a href="index.html"><img src="images/logo.png" width="130px"></a>
+                   
+                   
+                </div>
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="product-detail.html">About</a></li>
+                        <li><a href="https://www.instagram.com/p/CXimcHYho_N/?utm_medium=copy_link">Contact</a></li>
+                        <li><a href="account.html">Login</a></li>
+                        
+                    </ul>
+                    <a href="cardtem.html"><img src="images/cart.png" width="30px" height="30px" ></a>
+                    <img src="images/menu.png" class="manu" onclick="menutoggle()">
+
+                </nav>
+
+            </div>
+            
+      </div>
+    
+    <div class="account">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/image1.png" width="100%">
+                </div>
+                <div class="col-2">
+                 <div class="form-container">
+                   <div class="form-btn">
+                       <span onclick="log()">Login</span>
+                       <span onclick="rag()">Registor</span>
+                       <hr id="indecator">
+                   </div>
+                   <form id="login">
+                       <input type="text" placeholder="username">
+                       <input type="password" placeholder="password">
+                       <button type="submit" class="btn">Login</button>
+                       <a href="">Forget password</a>
+                   </form>
+
+                   <form id="reg">
+                    <input type="text" placeholder="username">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="btn">Register</button>
+                    
+                </form>
+
+                    </div>
+                </div>
+
+        </div> </div>
+    </div>
+       
+   
+
+
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Our purpuse is sustainably make the pleasure 
+                    and benefits of sports accessible to th many</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" >
+                        <img src="images/app-store.png" >
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+
+            </div>
+            <div class="footer-col-3">
+                <h3>useful links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blogs post</li>
+                    <li>Return policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us </h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - indrajeet web Devloper</p>
+    </div>
+</div>
+
+
+<!--script-->
+<script>
+    var menuitem=document.getElementById('menuitem');
+    menuitem.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitem.style.maxHeight=="0px"){
+            menuitem.style.maxHeight="200px";
+        }
+        else{
+            menuitem.style.maxHeight="0px";
+        }
+    }
+</script>
+
+<!--js for login page-->
+<script>
+   var login=document.getElementById('login');
+   var reg=document.getElementById('reg');
+   var indecator=document.getElementById('indecator');
+
+        function rag(){
+            reg.style.transform="translateX(0px)";
+            login.style.transform="translateX(0px)";
+            indecator.style.transform="translateX(100px)";
+        }
+        function log(){
+            reg.style.transform="translateX(300px)";
+            login.style.transform="translateX(300px)";
+            indecator.style.transform="translateX(0px)";
+        }
+        prompt("Fill your Details here?.")
+
+
+</script>
+
+
+
+</body>
+
+</html>
